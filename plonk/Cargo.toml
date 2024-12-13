@@ -8,6 +8,3 @@ rand_core = "0.6.4"
 halo2_proofs = { git = "https://github.com/privacy-scaling-explorations/halo2.git", tag = "v0.3.0" }
 halo2curves = { version = "0.6.1", features = ["derive_serde"] }
 halo2_poseidon = { git = "https://github.com/privacy-scaling-explorations/poseidon-gadget" }
-# halo2_gadgets = "0.3.0"
-rand = "0.8.5"
-rand_chacha = "0.3.1"
