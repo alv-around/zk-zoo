@@ -1,0 +1,22 @@
+[package]
+name = "data-structs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+digest = "0.10.7"
+ark-crypto-primitives = { version = "0.5.0", features = ["merkle_tree"] }
+
+[dev-dependencies]
+hex-literal = "0.4.1"
+sha2 = "0.10.8"
+rand = "0.8.5"
+p3-baby-bear = "0.2.0"
+p3-blake3 = "0.2.0"
+p3-symmetric = "0.2.0"
+p3-merkle-tree = "0.2.0"
+p3-commit = "0.2.0"
+p3-field = "0.2.0"
+p3-matrix = "0.2.0"
+p3-poseidon2 = "0.2.0"
+claim = "0.5.0"
